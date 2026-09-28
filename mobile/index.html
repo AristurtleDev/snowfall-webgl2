@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SnowFall</title>
+    <style>
+        html, body { min-width: 100%; min-height: 100%; margin: 0; background: #000; }
+        #monogame-host { position: fixed; inset: 0; overflow: hidden; }
+        #canvas { display: block; width: 100%; height: 100%; border: 0; background: #000; touch-action: none; }
+        #monogame-host-status { position: absolute; right: 1rem; bottom: 1rem; left: 1rem; margin: 0; padding: 0.75rem 1rem; background: #882323; color: #fff; }
+    </style>
+</head>
+<body>
+    <main id="monogame-host"
+          data-application-name="SnowFall"
+          data-canvas-id="canvas"
+          data-content-base-uri="./"
+          data-status-id="monogame-host-status"
+          data-runtime-script-uri="./_framework/dotnet.js"
+          data-host-exports-type-name="SnowFall.HostExports"
+          data-main-assembly-name="SnowFall.dll"
+          data-canvas-resize-policy="Adaptive"
+          data-pointer-lock="true">
+        <canvas id="canvas" width="800" height="480" aria-label="SnowFall game canvas"></canvas>
+        <p id="monogame-host-status" hidden role="alert"></p>
+    </main>
+    <noscript><p>SnowFall requires JavaScript.</p></noscript>
+    <script type="module">await import("./_monogame/monogame-web-host.js");</script>
+</body>
+</html>

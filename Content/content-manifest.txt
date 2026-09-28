@@ -1,0 +1,15 @@
+Content/Effects/BasicLighting.xnb
+Content/Effects/SnowflakeInstanced.xnb
+Content/Fonts/Instructions.xnb
+Content/Fonts/Roboto-Bold.xnb
+Content/Models/colormap.704f261d.xnb
+Content/Models/colormap.xnb
+Content/Models/ground.xnb
+Content/Models/house.xnb
+Content/Models/outer.xnb
+Content/Models/outside.xnb
+Content/Models/roof.xnb
+Content/Models/rudolph.xnb
+Content/Textures/foundation.xnb
+Content/Textures/kenney.xnb
+Content/Textures/monogame.xnb
